@@ -1,5 +1,5 @@
 import './App.css'
-import DaisyUi from './components/DaisyUi/DaisyUi'
+// import DaisyUi from './components/DaisyUi/DaisyUi'
 import NavBar from './components/NavBar/NavBar'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <> 
     <NavBar></NavBar>
-    <DaisyUi></DaisyUi>
+    {/* <DaisyUi></DaisyUi> */}
       <h1 className='text-4xl font-semibold bg-red-600'>Vite + React</h1>
   
     </>

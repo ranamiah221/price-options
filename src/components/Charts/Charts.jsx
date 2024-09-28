@@ -55,7 +55,7 @@ const Charts = () => {
   ];
   return (
     <div>
-      <LineChart width={700} height={300} data={studentMark}>
+      <LineChart width={400} height={300} data={studentMark}>
         <XAxis dataKey="name" />
         <YAxis />
        <Line type="monotone" dataKey="math" stroke="green" />
